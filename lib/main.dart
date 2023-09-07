@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-// import "package:flutter_app/screens/Dashboard.dart";
+import "package:flutter_app/screens/Dashboard.dart";
 import "package:flutter_app/screens/Home.dart";
 
 void main() {
@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         themeMode: ThemeMode.system,
         title: "My Flutter App",
-        home: Home());
+        home: Dashboard()
+        // home: Home());
+        );
   }
 }
